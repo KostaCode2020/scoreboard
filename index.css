@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+}
+
+.middle {
+   margin-left: -200px;
+   margin-right: -200px; 
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+}
+
+/*HOME*/
+
+#home-el {
+    color: #F94F6D;
+    display: flex;
+    flex-direction: row; 
+    background-color: #080001;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+    font-family: Tourney;
+    font-size: 30px;
+}
+
+#parent-home {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: -15px;
+    color: #EEEEEE;
+}
+
+#increment-btn-home-1, #increment-btn-home-2, #increment-btn-home-3{
+    color: #9AABD8;
+    border-color: #9AABD8;
+    background-color: #1B244A;
+    padding: 5px 6px 5px 6px;
+    margin-bottom: 50px;
+}
+
+
+
+/*HOME*/
+
+
+#reset-btn {
+    color: #9AABD8;
+    background-color: #1B244A;
+    border-color: #9AABD8;
+    padding: 5px 6px 5px 6px;
+    margin-top: 143px;
+}
+
+
+/*GUEST*/
+
+#guest-el {
+    color: #F94F6D;
+    background-color: #080001;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+    font-family: Tourney;
+    font-size: 30px;
+}
+
+#parent-guest {
+    
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: -15px;
+    color: #EEEEEE;
+}
+
+#increment-btn-guest-1, #increment-btn-guest-2, #increment-btn-guest-3{
+    color: #9AABD8;
+    border-color: #9AABD8;
+    background-color: #1B244A;
+    padding: 5px 6px 5px 6px;    
+}
+
+
+
+/*GUEST*/
